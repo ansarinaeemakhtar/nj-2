@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+.container { padding-top: 3.5rem; }
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.contact-form{
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+
+.contact-image{
+  text-align: center;
+}
+.contact-image img{
+  width: 12rem;
+  height: auto;
+}
+.contact-form form{
+  padding: 3% 10%;
+}
+.contact-form .btnContact {
+  border: 0;
+  padding: 1.5% 3%;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit
+{
+  padding: 1.5% 2.5%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
